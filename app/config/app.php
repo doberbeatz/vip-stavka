@@ -122,6 +122,9 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
+		# External Service Provider
+		'Doberbeatz\Backend\BackendServiceProvider'
+
 	),
 
 	/*
