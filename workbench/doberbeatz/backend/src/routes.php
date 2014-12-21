@@ -2,13 +2,14 @@
 
 Route::group(
 	[
+		'prefix' => \Backend::getPrefix(),
 		'namespace'=> 'Doberbeatz\Backend'
 	],
 	function() {
 		Route::get(
-			'admin',
+			'/',
 			[
-				'as' => 'backend.main',
+				'as' => \Backend::getPrefix().'.main',
 				'uses' => 'BackendController@index'
 			]);
 	});

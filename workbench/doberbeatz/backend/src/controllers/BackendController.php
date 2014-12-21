@@ -1,11 +1,14 @@
 <?php
 namespace Doberbeatz\Backend;
 
-class BackendController extends \BaseController {
+use Illuminate\Routing\Controller;
+use View;
+
+class BackendController extends Controller {
 
 	public function index()
 	{
-		return 'RGr';
+		return View::make('backend::index');
 	}
 
 }

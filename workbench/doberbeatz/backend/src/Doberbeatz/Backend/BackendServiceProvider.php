@@ -1,6 +1,7 @@
 <?php namespace Doberbeatz\Backend;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Foundation\AliasLoader;
 
 class BackendServiceProvider extends ServiceProvider {
 
@@ -20,6 +21,9 @@ class BackendServiceProvider extends ServiceProvider {
 	{
 		$this->package('doberbeatz/backend');
 
+		AliasLoader::getInstance()->alias('Backend', 'Doberbeatz\Backend\Backend');
+
+		include __DIR__.'/../../helpers.php';
 		include __DIR__.'/../../routes.php';
 	}
 
