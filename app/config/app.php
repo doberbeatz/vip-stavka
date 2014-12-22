@@ -123,7 +123,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		# External Service Provider
-		'Doberbeatz\Backend\BackendServiceProvider'
+		//'Doberbeatz\Backend\BackendServiceProvider'
 
 	),
 

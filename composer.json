@@ -1,12 +1,11 @@
 {
 	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
+	"description": "Vip-Stavka.",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"laravel/framework": "4.2.*",
-		"doberbeatz/backend": "dev-master"
+		"laravel/framework": "4.2.*"
 	},
 	"autoload": {
 		"classmap": [
