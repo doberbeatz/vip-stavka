@@ -123,7 +123,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		# External Service Provider
-		'Doberbeatz\Backend\BackendServiceProvider'
+		'Doberbeatz\Laraback\LarabackServiceProvider'
 
 	),
 
@@ -191,7 +191,6 @@ return array(
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
-
 	),
 
 );
