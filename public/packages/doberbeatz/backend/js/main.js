@@ -2,14 +2,6 @@
 
     window.PixelAdmin.start(init);
 
-    $('.js-image-collection').each(function () {
-        var ic = new ICCollection();
-        ic.$el = $(this);
-        var icView = new ICCollectionView({
-            collection : ic
-        });
-    });
-
     $('input.year').datepicker({
         format: "yyyy",
         startView: 1,
