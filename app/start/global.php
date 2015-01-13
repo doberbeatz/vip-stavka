@@ -20,6 +20,12 @@ ClassLoader::addDirectories(array(
 
 ));
 
+// 404 Error
+App::missing(function($exception)
+{
+	return Response::view('404', array(), 404);
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application Error Logger
