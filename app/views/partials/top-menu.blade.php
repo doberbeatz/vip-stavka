@@ -25,7 +25,7 @@
                         <li><a href="shortcodes.html">Shortcodes</a></li>
                     </ul>
                 </li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="blog.html">Блог</a></li>
                 <li><a href="{{ route('contacts') }}">Контакты</a></li>
             </ul>
         </div>

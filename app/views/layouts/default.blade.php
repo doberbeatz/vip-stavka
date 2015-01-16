@@ -26,16 +26,16 @@
     </head><!--/head-->
 
     <body class="homepage">
+        <div class="main_wrap">
+            <header id="header">
 
-        <header id="header">
+                @include('partials.top-menu')
 
-            @include('partials.top-menu')
+            </header><!--/header-->
 
-        </header><!--/header-->
+            @yield('content')
 
-        @yield('content')
-
-        @include('partials.bottom-section')
+        </div><!-- main_wrap -->
 
         <footer id="footer" class="midnight-blue">
             <div class="container">

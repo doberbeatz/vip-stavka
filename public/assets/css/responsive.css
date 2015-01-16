@@ -191,6 +191,14 @@
     margin-left: 0;
   }
 
+    #main-slider .carousel .slide-margin{
+        margin-top: 0;
+        padding: 25px;
+    }
+    #main-slider .carousel .carousel-content {
+        margin-top: 0;
+    }
+
   .top-number{
     font-size: 14px;
   }
@@ -199,8 +207,16 @@
     width: 120px;
   }
 
+  .navbar-nav {
+      margin-top: 15px;
+  }
+
   .navbar-nav > li {
     padding-bottom: 0;
+      line-height: 23px;
+  }
+    .navbar-inverse .navbar-nav > li > a {
+      line-height: 23px;
   }
 
   #main-slider .carousel h1 {

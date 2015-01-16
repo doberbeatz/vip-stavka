@@ -4,6 +4,9 @@
 /*************************
 *******Typography******
 **************************/
+html,body{
+  height: 100%;
+}
 
 body {
   background: #fff;
@@ -114,7 +117,13 @@ a:focus {
   margin-left: 20px;
 }
 
-body > section {
+.main_wrap {
+  min-height: 100%;
+  padding-bottom: 82px;
+  margin-bottom: -82px;
+}
+
+.main_wrap > section {
   padding: 70px 0;
 }
 
@@ -185,31 +194,27 @@ body > section {
 .navbar-brand {
   padding: 0;
   margin:0;
+  height: 81px;
+}
+
+.navbar-brand img {
+  height: 100%;
+  padding: 15px;
 }
 
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
   background: #151515;
-  padding: 15px 0;
-  padding-bottom: 0;
+  padding: 0;
 }
 
- .navbar-nav{
-  margin-top: 12px;
- }
-
-.navbar-nav>li{
-  margin-left: 35px;
-  padding-bottom: 28px;
-}
 
 .navbar-inverse .navbar-nav > li > a {
   padding: 5px 12px;
   margin: 0;
-  border-radius: 3px;
   color: #fff;
-  line-height: 24px;
+  line-height: 71px;
   display: inline-block;
 }
 
@@ -293,8 +298,8 @@ body > section {
 }
 
 .no-margin {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 #main-slider .carousel .carousel-content {
@@ -303,6 +308,11 @@ body > section {
 
 #main-slider .carousel .slide-margin{
   margin-top: 140px;
+  padding: 25px;
+  background-color: rgba(0,0,0,0.4);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 #main-slider .carousel h2 {
@@ -359,14 +369,12 @@ body > section {
 #main-slider .next {
   position: absolute;
   top: 50%;
-  background-color: #c52d2f;
   color: #fff;
   display: inline-block;
   margin-top: -25px;
   height: 40px;
   line-height: 40px;
   width: 40px;
-  line-height: 40px;
   text-align: center;
   border-radius: 4px;
   z-index: 5;
@@ -374,7 +382,8 @@ body > section {
 
 #main-slider .prev:hover,
 #main-slider .next:hover {
-  background-color: #000;
+  background-color: #fff;
+  color: #000;
 }
 
 #main-slider .prev {
@@ -489,7 +498,6 @@ body > section {
   line-height: 110px;
   text-align:center;
   background: #ffffff;
-  color: #c52d2f;
   border: 3px solid #ffffff;
   box-shadow: inset 0 0 0 5px #f2f2f2;
   -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
@@ -2263,7 +2271,7 @@ ul.sidebar-gallery {
 
 #comments_title{
    color:#4e4e4e;
-   font-weight:700px;
+   font-weight:700;
    font-size:20px;
    margin-top:60px;
    margin-bottom:40px;
@@ -2425,6 +2433,7 @@ shortcodes page css
 }
 
 #footer {
+  margin-top: -82px;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
