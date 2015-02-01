@@ -23,9 +23,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => '128.199.43.147',
-			'database'  => 'admin_vip-stavka',
-			'username'  => 'admin_vip-stavka',
-			'password'  => 'adminpassword',
+			'database'  => 'vip-stavka',
+			'username'  => 'root',
+			'password'  => 'fdtrjl1990',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
