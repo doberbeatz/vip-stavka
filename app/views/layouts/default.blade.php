@@ -41,7 +41,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
+                        &copy; 2015 <a target="_blank" href="http://vip-stavka.ru/" title="Прогнозы на спорт">VIP
+                                                                                                              Ставка</a>
                     </div>
                     <div class="col-sm-6">
                         <ul class="bottom-menu pull-right">
