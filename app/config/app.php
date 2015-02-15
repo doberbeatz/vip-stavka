@@ -123,7 +123,8 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
 		# External Service Provider
-		'Doberbeatz\Laraback\LarabackServiceProvider'
+		'Doberbeatz\Laraback\LarabackServiceProvider',
+		'App\Blog\BlogServiceProvider'
 
 	),
 
