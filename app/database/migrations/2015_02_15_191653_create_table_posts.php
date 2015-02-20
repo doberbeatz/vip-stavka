@@ -15,9 +15,10 @@ class CreateTablePosts extends Migration {
 		Schema::create('posts', function(Blueprint $table)
 		{
 			$table->increments('post_id');
-			$table->string('header');
+			$table->string('header', 50);
 			$table->text('brief');
 			$table->text('content');
+			$table->longText('image');
 			$table->tinyInteger('is_active')->default(1);
 			$table->integer('author');
 			$table->timestamps();

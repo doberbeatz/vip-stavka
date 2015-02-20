@@ -11,5 +11,11 @@ class BlogGrid extends Grid {
 
 		// Общие данные
 		$this->addColumn("header", "text", array("label"=>"Заголовок"));
+
+		$this->addAction("add", array(
+				"icon"=>"plus",
+				"link"=>array("route"=>\Backend::getPathPrefix() . '.blog.create'),
+				'label'=>'Добавить статью')
+		);
 	}
 }

@@ -5,5 +5,5 @@
 @stop
 
 @section('content')
-    <h1>Hello</h1>
+    {{ $grid->render() }}
 @stop

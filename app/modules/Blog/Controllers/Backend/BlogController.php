@@ -36,7 +36,7 @@ class BlogController extends BaseController {
      */
     public function create()
     {
-
+        return View::make("blog::backend.create");
     }
 
     /**
@@ -46,18 +46,28 @@ class BlogController extends BaseController {
      */
     public function store()
     {
+        // Проверка данных
+        if(!$this->_model->isValid(Input::all(), 'create')) {
+            // Список ошибок
+            Session::flash('danger', $this->_model->getErrors(true));
 
-    }
+            return Redirect::back()->withInput()->withErrors($this->_model->getErrors());
+        }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function show($id)
-    {
+        // Добавление пользователя
+        $model_name = $this->_model;
+        $model_name::create(array(
+            "header" => Input::get('header'),
+            "brief" => Input::get('brief'),
+            "description" => Hash::make(Input::get('description')),
+            "is_active" => (Input::get('is_active')=='on')? 1 : 0,
+            'author' => \BackendAuth::user()->backend_user_id
+        ));
 
+        // Статус добавления записи
+        Session::flash('success', 'Пользователь успешно добавлен!');
+
+        return Redirect::to(\route(Backend::getPathPrefix() . '.users.index'));
     }
 
     /**
@@ -68,7 +78,10 @@ class BlogController extends BaseController {
      */
     public function edit($id)
     {
+        $model_name = $this->_model;
+        $post = $model_name::find($id);
 
+        return View::make("backend::users.create")->with(array('post'=>$post));
     }
 
     /**

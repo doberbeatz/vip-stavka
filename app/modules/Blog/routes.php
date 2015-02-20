@@ -9,15 +9,11 @@ Route::group(['namespace' => 'App\\Blog\\Controllers'], function()
 /** Админка */
 Route::group(
 	[
-		'prefix' => \Backend::getPathPrefix().'/',
-		'namespace' => 'App\\Blog\\Controllers\\Backend'
+		'prefix' => \Backend::getPathPrefix(),
+		'namespace' => 'App\\Blog\\Controllers\\Backend',
+		'before' => array('backend.auth')
 	],
 	function()
 	{
-		Route::get(
-			'blog',
-			array(
-				'as' => \Backend::getPathPrefix() . '.blog.index',
-				'uses' => 'BlogController@index'
-			));
+		Route::resource('blog', "BlogController");
 	});
