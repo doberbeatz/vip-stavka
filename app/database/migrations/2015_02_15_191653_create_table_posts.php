@@ -19,8 +19,14 @@ class CreateTablePosts extends Migration {
 			$table->text('brief');
 			$table->text('content');
 			$table->longText('image');
-			$table->tinyInteger('is_active')->default(1);
+			$table->tinyInteger('is_visible')->default(1);
 			$table->integer('author');
+			$table->integer('type');
+			// SEO
+			$table->text('meta_title', 50);
+			$table->text('meta_keywords');
+			$table->text('meta_description');
+
 			$table->timestamps();
 			$table->softDeletes();
 		});

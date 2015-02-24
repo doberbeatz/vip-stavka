@@ -4,7 +4,7 @@
 	@if(!isset($post)||$post===null||$post===false)
 		Блог: добавление
 	@else
-		Блог: редактирование статьи {{ $user->getName() }} ({{ $user->getLogin() }})
+		Блог: редактирование статьи {{ $post->getName() }}
 	@endif
 @stop
 
@@ -15,9 +15,9 @@
 		<div class="col-lg-7">
 
 			@if(!isset($post))
-				{{ BootstrapForm::open(array('url' => \route( \Backend::getPathPrefix() . '.users.store'), 'files'=>true, 'class'=>'panel form-horizontal js-validation-form', 'id'=>'')) }}
+				{{ BootstrapForm::open(array('url' => \route( \Backend::getPathPrefix() . '.blog.store'), 'files'=>true, 'class'=>'panel form-horizontal js-validation-form', 'id'=>'')) }}
 			@else
-				{{ BootstrapForm::model($user, array('method' => 'patch', 'files'=>true, 'route' => array(\Backend::getPathPrefix() . '.users.update', $user->getKey()), 'class'=>'form-horizontal js-validation-form panel', 'id'=>'')) }}
+				{{ BootstrapForm::model($post, array('method' => 'patch', 'files'=>true, 'route' => array(\Backend::getPathPrefix() . '.blog.update', $post->getKey()), 'class'=>'form-horizontal js-validation-form panel', 'id'=>'')) }}
 			@endif
 
 				<div class="panel-body">
@@ -25,46 +25,35 @@
 						<li class="active">
 							<a href="#uiform-tab-main" data-toggle="tab">Общее</a>
 						</li>
-						<li class="">
+						<li>
 							<a href="#uiform-tab-description" data-toggle="tab">Детали</a>
+						</li>
+						<li>
+							<a href="#uiform-tab-seo" data-toggle="tab">SEO</a>
 						</li>
 					</ul>
 					<div class="tab-content tab-content-bordered">
 						<div class="tab-pane fade active in" id="uiform-tab-main">
 							{{-- Активность --}}
-							<div class="form-group">
-								<div class="col-sm-8 col-sm-offset-4">
-									<div class="checkbox">
-										<label for="is_active">{{ BootstrapForm::checkbox('is_active', Input::old('is_active'), false ,array('class' =>'px', 'id' => 'is_active')) }}<span class="lbl">{{ BootstrapForm::label('is_active', 'Активность', array('class' =>'')) }}</span></label>
-									</div>
-								</div>
-							</div>
-
+							{{ BootstrapForm::checkboxField('is_visible', 'Отображать на сайте', empty(Input::old('is_visible'))? 1 : Input::old('is_visible')) }}
 							{{-- Заголовок --}}
-							<div class="form-group">
-								{{ BootstrapForm::label('header', 'Заголовок', array('class' =>'col-sm-4 control-label')) }}
-								<div class="col-sm-8">
-									{{ BootstrapForm::text('header', Input::old('header'), array('class' => ($errors->has('header') ?  'error form-control js-valid-text' : 'form-control js-valid-text'))) }}
-								</div>
-							</div>
-
+							{{ BootstrapForm::textField('header', 'Заголовок', Input::old('name'), ['required'=>'required']) }}
+							{{-- Фото --}}
+							{{ BootstrapForm::imageField('image', 'Изображение', Input::old('image')) }}
 							{{-- Описание --}}
-							<div class="form-group">
-								{{ BootstrapForm::label('brief', 'Описание', array('class' =>'col-sm-4 control-label')) }}
-								<div class="col-sm-8">
-									{{ BootstrapForm::textarea('brief', Input::old('brief'), array('class' => ($errors->has('brief') ?  'error form-control js-valid-text' : 'form-control js-valid-text'), 'rows'=>5)) }}
-									<p class="help-block">Короткое описание статьи.</p>
-								</div>
-							</div>
+							{{ BootstrapForm::textareaField('brief', 'Краткое описание', Input::old('brief'), ['rows'=>5, 'required'=>'required']) }}
 						</div>
 						<div class="tab-pane fade" id="uiform-tab-description">
 							{{-- Подробное описание --}}
-							<div class="form-group">
-								{{ BootstrapForm::label('description', 'Детальное описание', array('class' =>'col-sm-4 control-label')) }}
-								<div class="col-sm-8">
-									{{ BootstrapForm::textarea('description', Input::old('description'), array('class' => ($errors->has('description') ?  'error form-control js-valid-text' : 'form-control js-valid-text'))) }}
-								</div>
-							</div>
+							{{ BootstrapForm::contentField('content', 'Детальное описание', Input::old('content'))}}
+						</div>
+						<div class="tab-pane fade" id="uiform-tab-seo">
+							{{-- SEO - Заголовок страницы --}}
+							{{ BootstrapForm::textField('meta_title', 'Заголовок страницы', Input::old('meta_title')) }}
+							{{-- SEO - Ключевые слова --}}
+							{{ BootstrapForm::textareaField('meta_keywords', 'Ключевые слова', Input::old('meta_keywords'), ['rows'=>5]) }}
+							{{-- SEP - Описание --}}
+							{{ BootstrapForm::textareaField('meta_description', 'Описание', Input::old('meta_description'), ['rows'=>5]) }}
 						</div>
 					</div>
 
@@ -77,4 +66,16 @@
 
 		</div>
 	</div>
+@stop
+
+@section('styles')
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/3.20.0/codemirror.min.css" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/3.20.0/theme/blackboard.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/3.20.0/theme/monokai.min.css">
+@stop
+
+@section('scripts')
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/codemirror/3.20.0/codemirror.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/3.20.0/mode/xml/xml.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/2.36.0/formatting.min.js"></script>
 @stop

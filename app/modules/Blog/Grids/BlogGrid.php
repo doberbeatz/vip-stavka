@@ -12,6 +12,19 @@ class BlogGrid extends Grid {
 		// Общие данные
 		$this->addColumn("header", "text", array("label"=>"Заголовок"));
 
+		$this->addColumn('is_visible', "ajaxToggler",
+			[
+				"label" => "Показывать",
+				"action" =>
+					[
+						"route" => \Backend::getPathPrefix() . ".blog.ajaxUpdate",
+						"params" => array(
+							"id" => "{blog}",
+						)
+					]
+			]
+		);
+
 		$this->addAction("add", array(
 				"icon"=>"plus",
 				"link"=>array("route"=>\Backend::getPathPrefix() . '.blog.create'),

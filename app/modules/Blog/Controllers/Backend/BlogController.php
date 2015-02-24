@@ -1,19 +1,13 @@
 <?php
 namespace App\Blog\Controllers\Backend;
 
-use App\Blog\Models\BlogRepository;
+use Blog, FlashMessenger;
 use View, Redirect, Session, Input, Request;
-use \App\Blog\Grids\BlogGrid as Grid;
-use \Doberbeatz\Laraback\Core\Controllers\ActionsController as BaseController;
+use Intervention\Image\Facades\Image;
+use App\Blog\Grids\BlogGrid as Grid;
+use Doberbeatz\Laraback\Core\Controllers\ActionsController as BaseController;
 
 class BlogController extends BaseController {
-
-    protected $_model;
-
-    public function __construct(BlogRepository $blogModel) {
-
-        $this->_model = $blogModel;
-    }
 
     /**
      * Список новостей
@@ -22,8 +16,7 @@ class BlogController extends BaseController {
      */
     public function index()
     {
-        $dbPosts = $this->_model;
-        $data = $dbPosts->getAll();
+        $data = Blog::getAll();
         $grid = new Grid('blog', $data);
 
         return View::make("blog::backend.index", array("grid" => $grid));
@@ -46,28 +39,30 @@ class BlogController extends BaseController {
      */
     public function store()
     {
-        // Проверка данных
-        if(!$this->_model->isValid(Input::all(), 'create')) {
-            // Список ошибок
-            Session::flash('danger', $this->_model->getErrors(true));
+        $inputs = Input::all();
+        $inputs['author'] = \BackendAuth::user()->getKey();
+        $pathToFile = '/images/blog/baz.jpg';
 
-            return Redirect::back()->withInput()->withErrors($this->_model->getErrors());
+        Image::make(Input::file('image')->getRealPath())
+                    ->resize(870, null, true, false)
+                    ->save($pathToFile);
+        
+        echo '<hr><pre>';print_r($pathToFile);echo '</pre><hr>';exit;
+
+        $post = Blog::newModelInstance($inputs);
+
+        if($post->save()){
+            FlashMessenger::addSuccess('Статья сохранена');
+        }else{
+            FlashMessenger::addMessages('danger', $post->getErrors()->all());
         }
 
-        // Добавление пользователя
-        $model_name = $this->_model;
-        $model_name::create(array(
-            "header" => Input::get('header'),
-            "brief" => Input::get('brief'),
-            "description" => Hash::make(Input::get('description')),
-            "is_active" => (Input::get('is_active')=='on')? 1 : 0,
-            'author' => \BackendAuth::user()->backend_user_id
-        ));
-
-        // Статус добавления записи
-        Session::flash('success', 'Пользователь успешно добавлен!');
-
-        return Redirect::to(\route(Backend::getPathPrefix() . '.users.index'));
+        if($post->getKey())
+        {
+            return Redirect::to(\Route(\Backend::getPathPrefix().'.blog.edit', ['blog'=>$post->getKey()]));
+        }else{
+            return Redirect::back();
+        }
     }
 
     /**
@@ -78,10 +73,9 @@ class BlogController extends BaseController {
      */
     public function edit($id)
     {
-        $model_name = $this->_model;
-        $post = $model_name::find($id);
+        $post = Blog::getById($id);
 
-        return View::make("backend::users.create")->with(array('post'=>$post));
+        return View::make("blog::backend.create")->with(array('post'=>$post));
     }
 
     /**
@@ -92,7 +86,16 @@ class BlogController extends BaseController {
      */
     public function update($id)
     {
+        $post = Blog::getById($id);
+        $post->fill(Input::all());
 
+        if($post->save()){
+            FlashMessenger::addSuccess('Статья успешно сохранена');
+        }else{
+            FlashMessenger::addMessages('danger', $post->getErrors()->all());
+        }
+
+        return Redirect::to(\Route(\Backend::getPathPrefix().'.blog.edit',['blog'=>$post->getKey()]));
     }
 
 
