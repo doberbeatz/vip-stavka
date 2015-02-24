@@ -41,10 +41,9 @@ class BlogController extends BaseController {
     {
         $inputs = Input::all();
         $inputs['author'] = \BackendAuth::user()->getKey();
-        $pathToFile = '/images/blog/baz.jpg';
+        $pathToFile = public_path('images/blog/'.time().'_'.Input::file('image')->getClientOriginalName());
 
         Image::make(Input::file('image')->getRealPath())
-                    ->resize(870, null, true, false)
                     ->save($pathToFile);
         
         echo '<hr><pre>';print_r($pathToFile);echo '</pre><hr>';exit;

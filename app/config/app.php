@@ -124,7 +124,8 @@ return array(
 
 		# External Service Provider
 		'Doberbeatz\Laraback\LarabackServiceProvider',
-		'App\Blog\BlogServiceProvider'
+		'App\Blog\BlogServiceProvider',
+		'Intervention\Image\ImageServiceProvider'
 
 	),
 
