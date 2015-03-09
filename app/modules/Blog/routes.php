@@ -15,5 +15,8 @@ Route::group(
 	],
 	function()
 	{
+		Route::get('blog/ajaxUpdate', array('as'=>\Backend::getPathPrefix().'.blog.ajaxUpdate',
+											'uses'=>"BlogController@ajaxUpdate"));
 		Route::resource('blog', "BlogController");
+
 	});

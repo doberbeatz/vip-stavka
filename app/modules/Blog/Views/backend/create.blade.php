@@ -3,8 +3,10 @@
 @section('title')
 	@if(!isset($post)||$post===null||$post===false)
 		Блог: добавление
+		<?php $imgValue = null;?>
 	@else
 		Блог: редактирование статьи {{ $post->getName() }}
+		<?php $imgValue = $post->getImage();?>
 	@endif
 @stop
 
@@ -39,7 +41,7 @@
 							{{-- Заголовок --}}
 							{{ BootstrapForm::textField('header', 'Заголовок', Input::old('name'), ['required'=>'required']) }}
 							{{-- Фото --}}
-							{{ BootstrapForm::imageField('image', 'Изображение', Input::old('image')) }}
+							{{ BootstrapForm::imageField('image', 'Изображение', $imgValue) }}
 							{{-- Описание --}}
 							{{ BootstrapForm::textareaField('brief', 'Краткое описание', Input::old('brief'), ['rows'=>5, 'required'=>'required']) }}
 						</div>

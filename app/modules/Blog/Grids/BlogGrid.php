@@ -19,11 +19,30 @@ class BlogGrid extends Grid {
 					[
 						"route" => \Backend::getPathPrefix() . ".blog.ajaxUpdate",
 						"params" => array(
-							"id" => "{blog}",
+							"id" => "{post_id}",
 						)
 					]
 			]
 		);
+
+		$this->addColumn(
+			'edit',
+			'icon',
+			[
+				'icon' => 'edit',
+				'link' => [
+					'route' => \Backend::getPathPrefix() . '.blog.edit',
+					'params' => [
+						'id' => '{post_id}'
+					]
+				]
+			]
+		);
+
+		$this->addColumn("delete", "icon", array("icon"=>"times", "method"=>"delete", "class"=>"js-confirm", "link"=>array(
+			"route"=> \Backend::getPathPrefix() . ".blog.destroy",
+			"params"=>array("id"=>"{post_id}")
+		)));
 
 		$this->addAction("add", array(
 				"icon"=>"plus",
