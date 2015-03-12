@@ -2,232 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="204f9a9a-6888-47a9-a849-6dea8eaef2a7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/.sass-cache/571daf888a154f2b691d628e58462bc1ff67dccc/main.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/.sass-cache/8045cf8554cc6defe854d084d60247da06a8608d/main.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/.sass-cache/97fc154f6a9e9162b8a460f155f6c5927018ee7e/main.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/alertify/alertify.core.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/alertify/alertify.default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/animate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/error.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/fullcalendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/google-grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/images/animated-overlay.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/images/ui-bg_flat_55_fbf9ee_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/images/ui-bg_flat_65_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/images/ui-bg_flat_75_f2ede0_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/images/ui-bg_flat_75_f4f2ee_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/images/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/images/ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/pages.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/pages.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/pixel-admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/pixel-admin.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/pixel-admin/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/pixel-admin/pages.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/pixel-admin/pixel-admin.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/pixel-admin/rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/pixel-admin/themes.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/pixel-admin/widgets.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/summernote.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/themes.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/themes.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/widgets.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/css/widgets.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/avatars/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/avatars/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/avatars/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/avatars/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/avatars/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/less-1.7.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/less/bootstrap-mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/less/bootstrap-variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/less/colors.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/logo-big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/pricing-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/signin-bg-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/signin-bg-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/signin-bg-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/signin-bg-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/signin-bg-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/signin-bg-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/signin-bg-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/signin-bg-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/signin-bg-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/themes/adminflare.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/themes/asphalt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/themes/clean.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/themes/default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/themes/dust.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/themes/fresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/themes/frost.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/themes/purple-hills.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/themes/silver.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/demo/themes/white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/font-awesome/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/font-awesome/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/font-awesome/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/font-awesome/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/font-awesome/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/chosen-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/cream_dust.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/fb-btn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/icon_minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/icon_plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/login-body-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/logo copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/logo2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/pixel-admin/auth-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/pixel-admin/avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/pixel-admin/blank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/pixel-admin/blur.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/pixel-admin/logo-big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/pixel-admin/main-menu-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/pixel-admin/main-navbar-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/pixel-admin/main-navbar-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/plugins/bootstrap-editable/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/plugins/jquery.minicolors.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/profile-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/profile-bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/profile-bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/profile-bg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/profile-bg4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/profile-pic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/sorting.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/sorting_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/sorting_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/themes/adminflare/body-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/themes/adminflare/ie-navbar-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/themes/adminflare/menu-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/themes/clean/body-bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/user1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/user1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/user10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/user2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/user3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/user4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/user5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/user6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/user7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/user8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/img/user9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/alertify/alertify-custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/alertify/alertify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/bootstrap-slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/bsvalidator/bootstrapValidator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/bsvalidator/bootstrapValidator.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/calendar/fullcalendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/calendar/fullcalendar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/custom-components.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/custom-datatables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/custom-forms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/custom-index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/custom-tables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/easypie/jquery.easypiechart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/easypie/jquery.easypiechart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/custom/area.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/custom/combine-chart-compare.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/custom/combine-chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/custom/donut.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/custom/horizontal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/custom/line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/custom/pie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/custom/realtime.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/custom/rectangular-pie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/custom/scatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/custom/stacked-area.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/custom/stacked-horizontal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/custom/stacked-vertical.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/custom/vertical.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/jquery.flot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/jquery.flot.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/jquery.flot.orderBar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/jquery.flot.orderBar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/jquery.flot.pie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/jquery.flot.pie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/jquery.flot.resize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/jquery.flot.resize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/jquery.flot.stack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/jquery.flot.stack.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/jquery.flot.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/flot/jquery.flot.tooltip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/google-grid/classie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/google-grid/gridGallery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/google-grid/imagesloaded.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/google-grid/masonry.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/google-grid/modernizr.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/ie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/ie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/jquery-ui-extras.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/jquery-ui-extras.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/jquery-ui-v1.10.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/jquery.datatables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/jquery.ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/jvectormap/data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/jvectormap/jquery-jvectormap-1.2.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/jvectormap/jquery-jvectormap-usa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/maps/custom-maps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/maps/maps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/pixel-admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/pixel-admin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/pixel-admin/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/pixel-admin/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/pixel-admin/ie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/pixel-admin/ie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/pixel-admin/jquery-ui-extras.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/pixel-admin/jquery-ui-extras.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/pixel-admin/pixel-admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/pixel-admin/pixel-admin.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/plugins/doublescroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/plugins/gridbatchform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/plugins/switch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/scrollup/jquery.scrollUp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/scrollup/jquery.scrollUp.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/sparkline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/summernote/summernote.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/packages/doberbeatz/backend/js/summernote/summernote.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BaseController.php" afterPath="$PROJECT_DIR$/app/controllers/BaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/Blog/Controllers/Backend/BlogController.php" afterPath="$PROJECT_DIR$/app/modules/Blog/Controllers/Backend/BlogController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/Blog/Grids/BlogGrid.php" afterPath="$PROJECT_DIR$/app/modules/Blog/Grids/BlogGrid.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/Blog/Views/backend/create.blade.php" afterPath="$PROJECT_DIR$/app/modules/Blog/Views/backend/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/Blog/routes.php" afterPath="$PROJECT_DIR$/app/modules/Blog/routes.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/archive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/comments.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/content-none.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/content-page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/content-single.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/content.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/admin/css/optionsframework.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/admin/images/ico-delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/admin/includes/class-options-framework-admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/admin/includes/class-options-framework.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/admin/includes/class-options-interface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/admin/includes/class-options-media-uploader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/admin/includes/class-options-sanitization.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/admin/js/media-uploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/admin/js/options-custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/admin/options-framework.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/custom-header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/customizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/extras.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/jetpack.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/js/customizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/js/dev/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/js/dev/flexslider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/js/dev/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/js/flexslider-custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/js/flexslider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/js/functions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/js/modernizr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/js/skip-link-focus-fix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/navwalker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/template-tags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/widgets/widget-categories.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/widgets/widget-popular-posts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/widgets/widget-social.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/inc/wpcom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/de_DE.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/de_DE.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/de_DE_Sie.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/de_DE_Sie.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/es_ES.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/es_ES.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/fa_IR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/fa_IR.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/fr_FR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/fr_FR.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/it_IT.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/it_IT.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/nl_NL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/nl_NL.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/pl_PL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/pl_PL.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/pt_BR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/pt_BR.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/pt_PT.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/pt_PT.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/ro_RO.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/ro_RO.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/ru_RU.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/ru_RU.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/languages/sparkling.pot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/options.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/page-fullwidth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/searchform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/sidebar-footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/sidebar-home.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/sidebar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/single.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/template/style.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/about.blade.php" afterPath="$PROJECT_DIR$/app/views/about.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/less/feature.less" afterPath="$PROJECT_DIR$/public/assets/less/feature.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/less/general.less" afterPath="$PROJECT_DIR$/public/assets/less/general.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/less/main-slider.less" afterPath="$PROJECT_DIR$/public/assets/less/main-slider.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/css/main.css" afterPath="$PROJECT_DIR$/public/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/less/navbar.less" afterPath="$PROJECT_DIR$/public/assets/less/navbar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/less/services-page.less" afterPath="$PROJECT_DIR$/public/assets/less/services-page.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/partials/top-menu.blade.php" afterPath="$PROJECT_DIR$/app/views/partials/top-menu.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Vip-stavka.iws" />
@@ -258,7 +135,18 @@
     <favorites_list name="Vip-stavka" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="about.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/about.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.26140684" vertical-offset="3175" max-vertical-offset="6425">
+              <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="117" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -271,15 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/modules/Blog/navigation.php" />
-        <option value="$PROJECT_DIR$/app/modules/Blog/Views/backend/index.blade.php" />
-        <option value="$PROJECT_DIR$/vendor/doberbeatz/backend/src/controllers/UsersController.php" />
-        <option value="$PROJECT_DIR$/vendor/doberbeatz/backend/public/js/main.js" />
-        <option value="$PROJECT_DIR$/vendor/doberbeatz/backend/src/Doberbeatz/Laraback/Grid/Action.php" />
-        <option value="$PROJECT_DIR$/vendor/doberbeatz/backend/src/Doberbeatz/Laraback/Database/Contracts/RepositoryInterface.php" />
-        <option value="$PROJECT_DIR$/vendor/doberbeatz/backend/src/Doberbeatz/Laraback/Database/Repository.php" />
-        <option value="$PROJECT_DIR$/vendor/doberbeatz/backend/src/Doberbeatz/Laraback/Database/Eloquent/Model.php" />
-        <option value="$PROJECT_DIR$/app/modules/Blog/Models/Blog.php" />
         <option value="$PROJECT_DIR$/app/modules/Blog/Models/BlogRepositoryFacade.php" />
         <option value="$PROJECT_DIR$/app/modules/Blog/Models/BlogRepository.php" />
         <option value="$PROJECT_DIR$/app/modules/Blog/Models/BlogModel.php" />
@@ -322,6 +201,15 @@
         <option value="$PROJECT_DIR$/vendor/doberbeatz/backend/public_src/styles/libs/font-awesome-4.0.3/less/variables.less" />
         <option value="$PROJECT_DIR$/vendor/doberbeatz/backend/public_src/styles/pixel-admin-less/variables.less" />
         <option value="$PROJECT_DIR$/vendor/doberbeatz/backend/public_src/tasks/cssmin.js" />
+        <option value="$PROJECT_DIR$/app/views/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/less/navbar.less" />
+        <option value="$PROJECT_DIR$/public/assets/less/main-slider.less" />
+        <option value="$PROJECT_DIR$/app/views/partials/top-menu.blade.php" />
+        <option value="$PROJECT_DIR$/public/template/about-us.html" />
+        <option value="$PROJECT_DIR$/public/assets/less/general.less" />
+        <option value="$PROJECT_DIR$/public/assets/less/feature.less" />
+        <option value="$PROJECT_DIR$/public/assets/less/services-page.less" />
+        <option value="$PROJECT_DIR$/app/views/about.blade.php" />
       </list>
     </option>
   </component>
@@ -613,67 +501,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vip-stavka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vip-stavka" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doberbeatz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vip-stavka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vip-stavka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doberbeatz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome" />
+              <option name="myItemId" value="less" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -723,7 +555,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="storage" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vip-stavka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vip-stavka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -916,11 +770,11 @@
       <recent name="$PROJECT_DIR$/vendor/doberbeatz/backend/src/Doberbeatz/Laraback/Core/Exceptions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/vendor/doberbeatz/backend/src/Doberbeatz/Laraback/Core" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public/assets/less" />
       <recent name="$PROJECT_DIR$/app/views" />
-      <recent name="$PROJECT_DIR$/vendor/doberbeatz/backend/public/css" />
     </key>
   </component>
   <component name="RunManager">
@@ -938,6 +792,9 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -945,9 +802,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -972,23 +826,23 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21145834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21145834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1008,9 +862,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1036,118 +890,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/modules/Blog/Grids/BlogGrid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1450">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/Blog/Controllers/Backend/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="3575">
-          <caret line="70" column="13" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="13" />
-          <folding>
-            <element signature="e#47#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/Blog/Views/backend/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2200">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1425236303000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/Blog/Grids/BlogGrid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1450">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/Blog/Controllers/Backend/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="3575">
-          <caret line="70" column="13" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="13" />
-          <folding>
-            <element signature="e#47#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/Blog/Views/backend/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2200">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1425236303000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9486692" vertical-offset="2050" max-vertical-offset="10425">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/File/UploadedFile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78612167" vertical-offset="2998" max-vertical-offset="4050">
-          <caret line="306" column="61" selection-start-line="306" selection-start-column="40" selection-end-line="306" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09505703" vertical-offset="0" max-vertical-offset="1052">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/local/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1052">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/Blog/Controllers/Frontend/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1052">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/Blog/Database/BlogModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14258555" vertical-offset="0" max-vertical-offset="1775">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.82984793" vertical-offset="4048" max-vertical-offset="5100">
-          <caret line="127" column="49" selection-start-line="127" selection-start-column="49" selection-end-line="127" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09505703" vertical-offset="0" max-vertical-offset="1052">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42775667" vertical-offset="425" max-vertical-offset="4175">
@@ -1383,9 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="2225">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <marker date="1425236303000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1393,9 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0931559" vertical-offset="250" max-vertical-offset="3575">
           <caret line="70" column="13" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="13" />
-          <folding>
-            <element signature="e#47#72#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1403,6 +1139,125 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61977184" vertical-offset="398" max-vertical-offset="1450">
           <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/template/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.430244" vertical-offset="3934" max-vertical-offset="63550">
+          <caret line="257" column="1" selection-start-line="184" selection-start-column="1" selection-end-line="257" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/less/navbar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57224333" vertical-offset="923" max-vertical-offset="3575">
+          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/less/main-slider.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023764258" vertical-offset="175" max-vertical-offset="3975">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partials/top-menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14258555" vertical-offset="0" max-vertical-offset="1225">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7842205" vertical-offset="550" max-vertical-offset="20325">
+          <caret line="55" column="30" selection-start-line="30" selection-start-column="8" selection-end-line="55" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/template/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0237643" vertical-offset="3723" max-vertical-offset="7400">
+          <caret line="189" column="17" selection-start-line="162" selection-start-column="12" selection-end-line="189" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/template/about-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1975" max-vertical-offset="10750">
+          <caret line="97" column="178" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="178" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/less/about-us-page.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9275">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/less/middle.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6975">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1052">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6891635" vertical-offset="25" max-vertical-offset="1775">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/less/general.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8098859" vertical-offset="2573" max-vertical-offset="4350">
+          <caret line="137" column="23" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/less/feature.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14258555" vertical-offset="0" max-vertical-offset="1250">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/less/services-page.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16634981" vertical-offset="0" max-vertical-offset="2425">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26140684" vertical-offset="3175" max-vertical-offset="6425">
+          <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="117" selection-end-column="39" />
           <folding />
         </state>
       </provider>

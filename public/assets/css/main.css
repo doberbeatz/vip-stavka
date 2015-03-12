@@ -116,6 +116,9 @@ a:focus {
   background-color: transparent !important;
   margin-bottom: 0;
 }
+.text-justify {
+  text-align: justify;
+}
 @-webkit-keyframes scaleIn {
   0% {
     opacity: 0;
@@ -141,6 +144,44 @@ a:focus {
     -ms-transform: scale(1);
     transform: scale(1);
   }
+}
+.top-bar {
+  padding: 10px 0;
+  background: #191919;
+  border-bottom: 1px solid #222;
+  line-height: 28px;
+}
+.top-number {
+  color: #fff;
+}
+.top-number p {
+  margin: 0;
+}
+.social {
+  text-align: right;
+}
+.social-share {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul.social-share li {
+  display: inline-block;
+}
+ul.social-share li a {
+  display: inline-block;
+  color: #fff;
+  background: #404040;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 2px;
+}
+ul.social-share li a:hover {
+  background: #2A6C90;
+  color: #fff;
 }
 .navbar {
   border-radius: 0;
@@ -231,7 +272,7 @@ a:focus {
   margin-bottom: 50px;
 }
 #main-slider .carousel .slide-margin {
-  padding: 25px;
+  padding: 100px;
   background-color: rgba(0, 0, 0, 0.4);
 }
 #main-slider .carousel h2 {
@@ -359,7 +400,7 @@ a:focus {
   padding-bottom: 40px;
 }
 .features {
-  padding: 0;
+  padding: 50px 0;
 }
 .feature-wrap {
   margin-bottom: 35px;
@@ -1084,7 +1125,7 @@ ul.social_icons li a i {
 .get-started {
   background: none repeat scroll 0 0 #F3F3F3;
   border-radius: 3px;
-  padding-bottom: 30px;
+  padding: 30px;
   position: relative;
   margin-bottom: 60px;
 }
