@@ -18,10 +18,10 @@ class CreateTablePosts extends Migration {
 			$table->string('header', 50);
 			$table->text('brief');
 			$table->text('content');
-			$table->longText('image');
+			$table->integer('image');
 			$table->tinyInteger('is_visible')->default(1);
 			$table->integer('author');
-			$table->integer('type');
+			$table->integer('category');
 			// SEO
 			$table->text('meta_title', 50);
 			$table->text('meta_keywords');
